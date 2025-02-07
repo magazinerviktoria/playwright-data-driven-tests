@@ -1,0 +1,38 @@
+[
+  {
+    "projectName": "Web Application",
+    "taskCard": "Implement user authentication",
+    "column": "To Do",
+    "tags": ["Feature", "High Priority"]
+  },
+  {
+    "projectName": "Web Application",
+    "taskCard": "Fix navigation bug",
+    "column": "To Do",
+    "tags": ["Bug"]
+  },
+  {
+    "projectName": "Web Application",
+    "taskCard": "Design system updates",
+    "column": "In Progress",
+    "tags": ["Design"]
+  },
+  {
+    "projectName": "Mobile Application",
+    "taskCard": "Push notification system",
+    "column": "To Do",
+    "tags": ["Feature"]
+  },
+  {
+    "projectName": "Mobile Application",
+    "taskCard": "Offline mode",
+    "column": "In Progress",
+    "tags": ["Feature", "High Priority"]
+  },
+  {
+    "projectName": "Mobile Application",
+    "taskCard": "App icon design",
+    "column": "Done",
+    "tags": ["Design"]
+  }
+]
