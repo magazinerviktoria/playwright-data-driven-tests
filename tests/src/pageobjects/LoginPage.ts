@@ -1,5 +1,4 @@
 import {Page, Locator} from "@playwright/test";
-import loginData from "../test-data/loginData.json";
 
 export class LoginPage{
     private page: Page;
@@ -19,9 +18,9 @@ export class LoginPage{
         await this.page.goto('https://animated-gingersnap-8cf7f2.netlify.app/');
     }
 
-    async login(): Promise<void> {
-        await this.username.fill(loginData.username);
-        await this.password.fill(loginData.password);
+    async login(username: string, password: string): Promise<void> {
+        await this.username.fill(username);
+        await this.password.fill(password);
         await this.loginButton.click();
     }
 }
